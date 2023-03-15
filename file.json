@@ -1,1 +1,1 @@
-{"BaseModel.db6ae2a0-f235-438a-87e1-b1a940f6fe6c": {"id": "db6ae2a0-f235-438a-87e1-b1a940f6fe6c", "created_at": "2023-02-12T14:37:17.303148", "updated_at": "2023-02-12T14:37:17.303163", "__class__": "BaseModel"}}
+{"Review.d48788b0-eb17-4db4-9e5c-1c0b3772455e": {"id": "d48788b0-eb17-4db4-9e5c-1c0b3772455e", "created_at": "2023-03-15T23:10:02.649144", "updated_at": "2023-03-15T23:10:02.649461", "text": "foobar108", "__class__": "Review"}}
