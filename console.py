@@ -66,11 +66,7 @@ class HBNBCommand(cmd.Cmd):
             if key not in storage.all():
                 print("** no instance found **")
             else:
-                attributes = storage.attributes()[classname]
-                for attribute, value in d.items():
-                    if attribute in attributes:
-                        value = attributes[attribute](value)
-                    setattr(storage.all()[key], attribute, value)
+                setattr(storage.all()[key], attribute, value)
                 storage.all()[key].save()
 
     def do_EOF(self, line):
