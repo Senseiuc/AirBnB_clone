@@ -183,8 +183,6 @@ class HBNBCommand(cmd.Cmd):
                         cast = float
                     else:
                         cast = int
-                else:
-                    value = value.replace('"', '')
                 if cast:
                     try:
                         value = cast(value)
